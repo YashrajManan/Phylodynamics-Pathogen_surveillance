@@ -1,0 +1,4 @@
+Sample	ndiff	n_resolved	seq_mode	seq_LH	pos_mode	pos_LH	coal_mode	coal_LH
+0	0	0	no sequences given	0	joint	-389.02753484794283	None	0
+1	0	0	no sequences given	0	joint	-436.3655317096962	const	4213.7025992727085
+2	0	0	no sequences given	0	joint	-465.23911785417846	skyline	4270.594648340647

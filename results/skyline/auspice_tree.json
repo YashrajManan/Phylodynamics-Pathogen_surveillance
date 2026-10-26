@@ -1,0 +1,11401 @@
+{
+"meta": {
+"title": "Auspice visualization of TreeTime (v0.12.1) analysis",
+"build_url": "https://github.com/neherlab/treetime",
+"last_updated": "2026-10-26",
+"treetime_version": "0.12.1",
+"genome_annotations": {
+"nuc": {
+"start": 1,
+"end": 29903,
+"type": "source",
+"strand": "+:"
+}
+},
+"panels": [
+"tree",
+"entropy"
+],
+"colorings": [
+{
+"title": "Date",
+"type": "continuous",
+"key": "num_date"
+},
+{
+"title": "Genotype",
+"type": "categorical",
+"key": "gt"
+},
+{
+"title": "Excluded",
+"type": "categorical",
+"key": "bad_branch"
+},
+{
+"title": "Branch Support",
+"type": "continuous",
+"key": "confidence"
+}
+],
+"display_defaults": {
+"color_by": "bad_branch"
+},
+"filters": [
+"bad_branch"
+]
+},
+"tree": {
+"name": "NODE_0000404",
+"node_attrs": {
+"num_date": {
+"value": 2019.6566008522975
+},
+"div": 0.001,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000110",
+"node_attrs": {
+"num_date": {
+"value": 2019.904964036268
+},
+"div": 0.0012564538173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000111",
+"node_attrs": {
+"num_date": {
+"value": 2020.8585616398252
+},
+"div": 0.0018957967173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OU029185.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.1493150684933
+},
+"div": 0.002097847417347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000112",
+"node_attrs": {
+"num_date": {
+"value": 2020.860784820538
+},
+"div": 0.0018967967173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000113",
+"node_attrs": {
+"num_date": {
+"value": 2020.860992605964
+},
+"div": 0.001897796717347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000114",
+"node_attrs": {
+"num_date": {
+"value": 2020.8642683454768
+},
+"div": 0.001898796717347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX544826.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.195890410959
+},
+"div": 0.002234975817347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MZ068639.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.313698630137
+},
+"div": 0.002138567317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000115",
+"node_attrs": {
+"num_date": {
+"value": 2020.860992605964
+},
+"div": 0.001898796717347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000116",
+"node_attrs": {
+"num_date": {
+"value": 2020.865592175452
+},
+"div": 0.001899796717347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OU251703.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.2671232876712
+},
+"div": 0.002135796617347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OU152960.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.313698630137
+},
+"div": 0.002141513017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000117",
+"node_attrs": {
+"num_date": {
+"value": 2020.8831669785638
+},
+"div": 0.001932276917347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000118",
+"node_attrs": {
+"num_date": {
+"value": 2020.8857002471887
+},
+"div": 0.001933276917347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY607489.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.9357923497269
+},
+"div": 0.002000315117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OU071575.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.190410958904
+},
+"div": 0.002067664817347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000119",
+"node_attrs": {
+"num_date": {
+"value": 2020.8831669785638
+},
+"div": 0.001933276917347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OD915623.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.9603825136612
+},
+"div": 0.002067664817347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MZ252956.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.335616438356
+},
+"div": 0.002237411817347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000120",
+"node_attrs": {
+"num_date": {
+"value": 2020.9286678155618
+},
+"div": 0.0019302769173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000121",
+"node_attrs": {
+"num_date": {
+"value": 2020.933001048745
+},
+"div": 0.0019312769173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OU386266.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.0506849315068
+},
+"div": 0.002099457017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000122",
+"node_attrs": {
+"num_date": {
+"value": 2021.0163935992155
+},
+"div": 0.0019647571173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OU128824.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.2643835616439
+},
+"div": 0.002065431117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000123",
+"node_attrs": {
+"num_date": {
+"value": 2021.0842888038947
+},
+"div": 0.002031795317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OU154595.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.335616438356
+},
+"div": 0.002132469317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OU138711.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.2835616438356
+},
+"div": 0.002267795217347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000124",
+"node_attrs": {
+"num_date": {
+"value": 2020.932224059799
+},
+"div": 0.0019312769173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MZ284177.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.3
+},
+"div": 0.002199625517347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000125",
+"node_attrs": {
+"num_date": {
+"value": 2021.0162147120222
+},
+"div": 0.001998315117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "ON030763.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.2260273972602
+},
+"div": 0.002300832017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000126",
+"node_attrs": {
+"num_date": {
+"value": 2021.0205479452054
+},
+"div": 0.0020003301173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "HG996952.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.0205479452054
+},
+"div": 0.0020013301173476255,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000127",
+"node_attrs": {
+"num_date": {
+"value": 2021.1245600910488
+},
+"div": 0.002049878917347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MZ412174.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.4150684931508
+},
+"div": 0.002253585317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MZ377971.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.3438356164384
+},
+"div": 0.002174138317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000109",
+"node_attrs": {
+"num_date": {
+"value": 2019.914800692748
+},
+"div": 0.0012901736173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MZ012634.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.2342465753425
+},
+"div": 0.0023071793173476255,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000093",
+"node_attrs": {
+"num_date": {
+"value": 2019.922560310004
+},
+"div": 0.0013238741173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000094",
+"node_attrs": {
+"num_date": {
+"value": 2019.994557353226
+},
+"div": 0.0013248741173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000095",
+"node_attrs": {
+"num_date": {
+"value": 2019.9957378998163
+},
+"div": 0.0013258741173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX553588.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.389344262295
+},
+"div": 0.0018115410173476251,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000096",
+"node_attrs": {
+"num_date": {
+"value": 2020.2171671393005
+},
+"div": 0.0013593543173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MT834039.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.4084699453551
+},
+"div": 0.0015602682173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000097",
+"node_attrs": {
+"num_date": {
+"value": 2020.2239587641977
+},
+"div": 0.0013603543173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX625685.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.2909836065573
+},
+"div": 0.0013938345173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MW134283.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.5532786885246
+},
+"div": 0.0015624050173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000098",
+"node_attrs": {
+"num_date": {
+"value": 2020.1672276526108
+},
+"div": 0.0013258741173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000099",
+"node_attrs": {
+"num_date": {
+"value": 2020.1922295134161
+},
+"div": 0.0013268741173476251,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "FR998263.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.2773224043715
+},
+"div": 0.0014305198173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000100",
+"node_attrs": {
+"num_date": {
+"value": 2020.2190058650813
+},
+"div": 0.001327874117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY960411.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.2363387978141
+},
+"div": 0.001328874117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY325992.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.2199453551912
+},
+"div": 0.001328874117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000101",
+"node_attrs": {
+"num_date": {
+"value": 2020.169046147825
+},
+"div": 0.0013268741173476251,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000102",
+"node_attrs": {
+"num_date": {
+"value": 2020.1823756946587
+},
+"div": 0.001327874117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY962206.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.2554644808743
+},
+"div": 0.001428548117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OX610007.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.3046448087432
+},
+"div": 0.0013613543173476251,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000103",
+"node_attrs": {
+"num_date": {
+"value": 2020.1707650273224
+},
+"div": 0.001327874117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "FR990346.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.1707650273224
+},
+"div": 0.001328874117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000104",
+"node_attrs": {
+"num_date": {
+"value": 2020.2192581384736
+},
+"div": 0.001328874117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000105",
+"node_attrs": {
+"num_date": {
+"value": 2020.2248685535603
+},
+"div": 0.0013298741173476249,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OA989663.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.73087431694
+},
+"div": 0.0014980542173476249,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000106",
+"node_attrs": {
+"num_date": {
+"value": 2020.2248685535603
+},
+"div": 0.0013308741173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "ON286174.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.2472677595629
+},
+"div": 0.0013643543173476249,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OU168828.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.7254098360656
+},
+"div": 0.0016670265173476249,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000107",
+"node_attrs": {
+"num_date": {
+"value": 2020.2245307826433
+},
+"div": 0.0013298741173476249,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR306700.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.6379781420765
+},
+"div": 0.0015984145173476249,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000108",
+"node_attrs": {
+"num_date": {
+"value": 2020.5277612775717
+},
+"div": 0.001531924817347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MW154086.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.5751366120219
+},
+"div": 0.001598963017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MW184230.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.6680327868853
+},
+"div": 0.001632598817347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000062",
+"node_attrs": {
+"num_date": {
+"value": 2019.9424876039336
+},
+"div": 0.0014245481173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000063",
+"node_attrs": {
+"num_date": {
+"value": 2020.534469975792
+},
+"div": 0.0017045346173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX770407.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.3219178082193
+},
+"div": 0.0022788610173476256,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000064",
+"node_attrs": {
+"num_date": {
+"value": 2020.9239571126839
+},
+"div": 0.0019735275173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000065",
+"node_attrs": {
+"num_date": {
+"value": 2021.2953823097012
+},
+"div": 0.0022202916173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000066",
+"node_attrs": {
+"num_date": {
+"value": 2021.5110742008562
+},
+"div": 0.0023884717173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OK164544.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.6534246575343
+},
+"div": 0.002489145717347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OK028129.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.5767123287671
+},
+"div": 0.002455509917347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000067",
+"node_attrs": {
+"num_date": {
+"value": 2021.3325681907509
+},
+"div": 0.0022527397173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ892332.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.5958904109589
+},
+"div": 0.0025554313173476255,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "ON516532.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.9575342465753
+},
+"div": 0.0027235446173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000068",
+"node_attrs": {
+"num_date": {
+"value": 2021.3251957453238
+},
+"div": 0.002331887317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR316224.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.7547945205479
+},
+"div": 0.002705805517347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000069",
+"node_attrs": {
+"num_date": {
+"value": 2021.3252401819336
+},
+"div": 0.0023328873173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX717395.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.9328767123288
+},
+"div": 0.002679972917347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000070",
+"node_attrs": {
+"num_date": {
+"value": 2021.334527630431
+},
+"div": 0.002364354517347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OK427709.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.7383561643835
+},
+"div": 0.0028347304173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000071",
+"node_attrs": {
+"num_date": {
+"value": 2021.334527630431
+},
+"div": 0.0023653545173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000072",
+"node_attrs": {
+"num_date": {
+"value": 2021.3395216865738
+},
+"div": 0.0023663545173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000073",
+"node_attrs": {
+"num_date": {
+"value": 2021.4001608688154
+},
+"div": 0.0023998347173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OV423097.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.7383561643835
+},
+"div": 0.0026358346173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OV006252.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.8205479452056
+},
+"div": 0.002671745017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000074",
+"node_attrs": {
+"num_date": {
+"value": 2021.343854919757
+},
+"div": 0.0023673545173476256,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000075",
+"node_attrs": {
+"num_date": {
+"value": 2021.4506380385067
+},
+"div": 0.0024680285173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OK534985.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.7410958904109
+},
+"div": 0.0027040284173476255,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OK158972.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.658904109589
+},
+"div": 0.0026722606173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000076",
+"node_attrs": {
+"num_date": {
+"value": 2021.515740346498
+},
+"div": 0.0024680285173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OU674804.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.6561643835616
+},
+"div": 0.0026700792173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000077",
+"node_attrs": {
+"num_date": {
+"value": 2021.5268438594921
+},
+"div": 0.0024690285173476255,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OV072544.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.8424657534247
+},
+"div": 0.0026034164173476255,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OV113087.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.858904109589
+},
+"div": 0.0026724227173476256,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000078",
+"node_attrs": {
+"num_date": {
+"value": 2021.334527630431
+},
+"div": 0.0023663545173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000079",
+"node_attrs": {
+"num_date": {
+"value": 2021.4991424274767
+},
+"div": 0.0024333927173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OM047780.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.9109589041095
+},
+"div": 0.0028747494173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000080",
+"node_attrs": {
+"num_date": {
+"value": 2021.5022285637929
+},
+"div": 0.0024343927173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MZ729190.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.5684931506848
+},
+"div": 0.0025687806173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000081",
+"node_attrs": {
+"num_date": {
+"value": 2021.5116763385445
+},
+"div": 0.0024353927173476255,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR315248.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.831506849315
+},
+"div": 0.0027054206173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000082",
+"node_attrs": {
+"num_date": {
+"value": 2021.576115344557
+},
+"div": 0.0024688729173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OK207410.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.6917808219177
+},
+"div": 0.002569546917347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OL735763.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.8698630136987
+},
+"div": 0.002569546917347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000083",
+"node_attrs": {
+"num_date": {
+"value": 2021.3432665632313
+},
+"div": 0.0023998347173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OV844623.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.8397260273973
+},
+"div": 0.002805653317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000084",
+"node_attrs": {
+"num_date": {
+"value": 2021.3432665632313
+},
+"div": 0.0024008347173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000085",
+"node_attrs": {
+"num_date": {
+"value": 2021.3432665632313
+},
+"div": 0.0024018347173476256,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OK663420.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.5876712328768
+},
+"div": 0.0028305165173476256,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OM141680.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.9465753424658
+},
+"div": 0.0027382384173476257,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000086",
+"node_attrs": {
+"num_date": {
+"value": 2021.3557357688178
+},
+"div": 0.0024343149173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000087",
+"node_attrs": {
+"num_date": {
+"value": 2021.3557357688178
+},
+"div": 0.0024353149173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OU459624.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.5520547945205
+},
+"div": 0.0026748525173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY008551.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.5767123287671
+},
+"div": 0.0027129348173476255,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000088",
+"node_attrs": {
+"num_date": {
+"value": 2021.3557357688178
+},
+"div": 0.0024353149173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000089",
+"node_attrs": {
+"num_date": {
+"value": 2021.3557357688178
+},
+"div": 0.0024363149173476256,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OU304488.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.4041095890411
+},
+"div": 0.0025369889173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OU745609.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.7054794520548
+},
+"div": 0.0027063428173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000090",
+"node_attrs": {
+"num_date": {
+"value": 2021.4001139378115
+},
+"div": 0.0024687951173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OU628406.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.6424657534246
+},
+"div": 0.002670845817347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000091",
+"node_attrs": {
+"num_date": {
+"value": 2021.4044471709947
+},
+"div": 0.0024697951173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OV481356.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.9356164383562
+},
+"div": 0.0027417613173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000092",
+"node_attrs": {
+"num_date": {
+"value": 2021.5130351734056
+},
+"div": 0.0025704691173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OV205050.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.872602739726
+},
+"div": 0.0028769533173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY543024.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.7767123287672
+},
+"div": 0.002908790217347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000045",
+"node_attrs": {
+"num_date": {
+"value": 2019.9424876039336
+},
+"div": 0.0014255481173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000046",
+"node_attrs": {
+"num_date": {
+"value": 2020.1795834133015
+},
+"div": 0.0014265481173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000047",
+"node_attrs": {
+"num_date": {
+"value": 2020.1826163653955
+},
+"div": 0.0014275481173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR315994.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.613387978142
+},
+"div": 0.001796875317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000048",
+"node_attrs": {
+"num_date": {
+"value": 2020.1826163653955
+},
+"div": 0.001428548117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OK436308.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.4275956284152
+},
+"div": 0.001699998217347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000049",
+"node_attrs": {
+"num_date": {
+"value": 2020.1889697239174
+},
+"div": 0.0014620283173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "FR993430.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.200819672131
+},
+"div": 0.0015290665173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OU146331.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.0643835616438
+},
+"div": 0.002004300817347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000050",
+"node_attrs": {
+"num_date": {
+"value": 2020.2170763368788
+},
+"div": 0.0014275481173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000051",
+"node_attrs": {
+"num_date": {
+"value": 2020.3231157032583
+},
+"div": 0.0014945863173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR304834.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.6352459016393
+},
+"div": 0.0018639685173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000052",
+"node_attrs": {
+"num_date": {
+"value": 2020.3857278915168
+},
+"div": 0.001495586317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OL408293.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.717213114754
+},
+"div": 0.001665673117347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000053",
+"node_attrs": {
+"num_date": {
+"value": 2020.3892353757608
+},
+"div": 0.001497601317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OA971282.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.5833333333333
+},
+"div": 0.001631987817347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OL381191.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.5532786885246
+},
+"div": 0.0015993883173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000054",
+"node_attrs": {
+"num_date": {
+"value": 2020.6108856656997
+},
+"div": 0.0016635480173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000055",
+"node_attrs": {
+"num_date": {
+"value": 2020.6126749911998
+},
+"div": 0.0016645480173476251,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OA992322.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.75
+},
+"div": 0.0018368479173476251,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000056",
+"node_attrs": {
+"num_date": {
+"value": 2020.784403680097
+},
+"div": 0.0017315862173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OD898554.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.8811475409836
+},
+"div": 0.0017650664173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000057",
+"node_attrs": {
+"num_date": {
+"value": 2020.7887369132804
+},
+"div": 0.001732586217347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OD900602.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.870218579235
+},
+"div": 0.001799624417347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OX679469.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.9248633879781
+},
+"div": 0.001868606917347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000058",
+"node_attrs": {
+"num_date": {
+"value": 2020.7167552181986
+},
+"div": 0.0017642220173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000059",
+"node_attrs": {
+"num_date": {
+"value": 2020.7253124015629
+},
+"div": 0.0017652220173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OD936503.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.9631147540983
+},
+"div": 0.0019334021173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OU082321.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.1438356164383
+},
+"div": 0.0019344273173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000060",
+"node_attrs": {
+"num_date": {
+"value": 2020.7540096186117
+},
+"div": 0.0017977022173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX570229.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.8292349726776
+},
+"div": 0.0018983762173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000061",
+"node_attrs": {
+"num_date": {
+"value": 2020.7583428517949
+},
+"div": 0.0017987022173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OD949862.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.886612021858
+},
+"div": 0.0019704280173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OB996665.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.8620218579235
+},
+"div": 0.0018321824173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000022",
+"node_attrs": {
+"num_date": {
+"value": 2019.9427868981254
+},
+"div": 0.0014265481173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000021",
+"node_attrs": {
+"num_date": {
+"value": 2019.9578841934795
+},
+"div": 0.0015598820173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MT019531.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.995890410959
+},
+"div": 0.0015933622173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000020",
+"node_attrs": {
+"num_date": {
+"value": 2019.9578841934795
+},
+"div": 0.0015608820173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MT019529.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.9767123287672
+},
+"div": 0.0016615560173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000018",
+"node_attrs": {
+"num_date": {
+"value": 2019.9578841934795
+},
+"div": 0.0015618820173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000019",
+"node_attrs": {
+"num_date": {
+"value": 2019.9578841934795
+},
+"div": 0.001562882017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MT019530.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.995890410959
+},
+"div": 0.0017638453173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MN996531.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.995890410959
+},
+"div": 0.0016299202173476251,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000015",
+"node_attrs": {
+"num_date": {
+"value": 2019.960388676961
+},
+"div": 0.001562882017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000016",
+"node_attrs": {
+"num_date": {
+"value": 2019.9826037628598
+},
+"div": 0.001563882017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OL549280.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.9986301369863
+},
+"div": 0.001564882017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000017",
+"node_attrs": {
+"num_date": {
+"value": 2019.9828907114093
+},
+"div": 0.001564882017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MN996530.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.995890410959
+},
+"div": 0.0015658820173476249,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MN996529.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.995890410959
+},
+"div": 0.001631920217347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000014",
+"node_attrs": {
+"num_date": {
+"value": 2019.9604035710372
+},
+"div": 0.001563882017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "LR757998.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.9849315068493
+},
+"div": 0.001630920217347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000012",
+"node_attrs": {
+"num_date": {
+"value": 2019.9627395698626
+},
+"div": 0.001564882017347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000013",
+"node_attrs": {
+"num_date": {
+"value": 2019.9915571777758
+},
+"div": 0.0015658820173476249,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MT291827.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.995890410959
+},
+"div": 0.0015668820173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MT291830.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.995890410959
+},
+"div": 0.0015668820173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000002",
+"node_attrs": {
+"num_date": {
+"value": 2019.9627395698626
+},
+"div": 0.0015658820173476249,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000001",
+"node_attrs": {
+"num_date": {
+"value": 2019.9670728030458
+},
+"div": 0.0015668820173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MT291829.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.995890410959
+},
+"div": 0.0015678820173476247,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000000",
+"node_attrs": {
+"num_date": {
+"value": 2019.9848203190702
+},
+"div": 0.0016003622173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MN996527.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.995890410959
+},
+"div": 0.001633842417347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MT291828.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.995890410959
+},
+"div": 0.0016013622173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000003",
+"node_attrs": {
+"num_date": {
+"value": 2019.9627395698626
+},
+"div": 0.0015668820173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000004",
+"node_attrs": {
+"num_date": {
+"value": 2020.1366578760621
+},
+"div": 0.0016675560173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY949092.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.233606557377
+},
+"div": 0.0018019439173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000005",
+"node_attrs": {
+"num_date": {
+"value": 2020.1380778733944
+},
+"div": 0.0016685560173476247,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY974315.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.2199453551912
+},
+"div": 0.0018094624173476247,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000006",
+"node_attrs": {
+"num_date": {
+"value": 2020.192311312955
+},
+"div": 0.0017020362173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX473652.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.2254098360656
+},
+"div": 0.0017367976173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY383727.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.3155737704917
+},
+"div": 0.0018040239173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000007",
+"node_attrs": {
+"num_date": {
+"value": 2019.9834253186764
+},
+"div": 0.0016339202173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "LR963441.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.1653005464482
+},
+"div": 0.0017839647173476247,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000008",
+"node_attrs": {
+"num_date": {
+"value": 2019.9834253186764
+},
+"div": 0.0016349202173476247,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000009",
+"node_attrs": {
+"num_date": {
+"value": 2019.9834253186764
+},
+"div": 0.0016359202173476246,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MT291826.1",
+"node_attrs": {
+"num_date": {
+"value": 2019.995890410959
+},
+"div": 0.0016694004173476247,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MZ906250.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.3237704918033
+},
+"div": 0.0020057321173476248,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000010",
+"node_attrs": {
+"num_date": {
+"value": 2020.1373233835775
+},
+"div": 0.0017355942173476247,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MT293184.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.2117486338798
+},
+"div": 0.0018699821173476247,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000011",
+"node_attrs": {
+"num_date": {
+"value": 2020.1828019847865
+},
+"div": 0.0017365942173476246,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MW593766.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.2472677595629
+},
+"div": 0.0018372682173476247,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MZ433572.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.3319672131147
+},
+"div": 0.0017700744173476247,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000023",
+"node_attrs": {
+"num_date": {
+"value": 2020.1659038960142
+},
+"div": 0.0014600283173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MT994901.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.6407103825136
+},
+"div": 0.0016609563173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000024",
+"node_attrs": {
+"num_date": {
+"value": 2020.1704233139005
+},
+"div": 0.0014620433173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000025",
+"node_attrs": {
+"num_date": {
+"value": 2020.1992871441266
+},
+"div": 0.0014630433173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP604695.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.1246575342466
+},
+"div": 0.0015310885173476251,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000026",
+"node_attrs": {
+"num_date": {
+"value": 2020.5718671878024
+},
+"div": 0.001965844317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY937800.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.7281420765028
+},
+"div": 0.002233777517347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000027",
+"node_attrs": {
+"num_date": {
+"value": 2020.577562206434
+},
+"div": 0.0019668443173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "ON272238.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.8073770491803
+},
+"div": 0.002033882517347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OU194205.2",
+"node_attrs": {
+"num_date": {
+"value": 2020.7937158469945
+},
+"div": 0.0022028442173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000028",
+"node_attrs": {
+"num_date": {
+"value": 2020.1704233139005
+},
+"div": 0.0014630433173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000029",
+"node_attrs": {
+"num_date": {
+"value": 2020.2228229866366
+},
+"div": 0.0015300815173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "ON286276.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.2254098360656
+},
+"div": 0.0015310815173476251,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OC997859.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.8620218579235
+},
+"div": 0.0019674876173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000030",
+"node_attrs": {
+"num_date": {
+"value": 2020.1785704637884
+},
+"div": 0.0014965235173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MW053961.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.3319672131147
+},
+"div": 0.0016974637173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000031",
+"node_attrs": {
+"num_date": {
+"value": 2020.1830494808971
+},
+"div": 0.0014975235173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000032",
+"node_attrs": {
+"num_date": {
+"value": 2020.2440136296389
+},
+"div": 0.0015310037173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MT890303.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.4467213114754
+},
+"div": 0.0016697173173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000033",
+"node_attrs": {
+"num_date": {
+"value": 2020.3162374491346
+},
+"div": 0.0015644839173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MW694062.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.113698630137
+},
+"div": 0.0019679937173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000034",
+"node_attrs": {
+"num_date": {
+"value": 2020.5278098022457
+},
+"div": 0.0016988718173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MW562706.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.99043715847
+},
+"div": 0.0020004367173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000035",
+"node_attrs": {
+"num_date": {
+"value": 2020.5516370913479
+},
+"div": 0.0017353977173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MW731230.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.0863013698631
+},
+"div": 0.0021012704173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000036",
+"node_attrs": {
+"num_date": {
+"value": 2020.6101378769986
+},
+"div": 0.0018024359173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OL826017.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.8210382513662
+},
+"div": 0.0019368238173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000037",
+"node_attrs": {
+"num_date": {
+"value": 2020.6282785975498
+},
+"div": 0.0018359161173476255,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR306004.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.7062841530055
+},
+"div": 0.0020056325173476255,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MZ046641.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.182191780822
+},
+"div": 0.0021059440173476253,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000038",
+"node_attrs": {
+"num_date": {
+"value": 2020.1848707431293
+},
+"div": 0.0014985235173476251,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000039",
+"node_attrs": {
+"num_date": {
+"value": 2020.3023346453222
+},
+"div": 0.0015320037173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR319421.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.4494535519125
+},
+"div": 0.0016326777173476252,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MZ619917.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.3027397260273
+},
+"div": 0.0019693740173476254,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000040",
+"node_attrs": {
+"num_date": {
+"value": 2020.1853195116146
+},
+"div": 0.001499523517347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000041",
+"node_attrs": {
+"num_date": {
+"value": 2020.1937541985108
+},
+"div": 0.001500523517347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "ON302362.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.198087431694
+},
+"div": 0.0015015235173476249,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OA964463.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.3319672131147
+},
+"div": 0.001601197517347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000042",
+"node_attrs": {
+"num_date": {
+"value": 2020.1853195116146
+},
+"div": 0.001500523517347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MT646071.1",
+"node_attrs": {
+"num_date": {
+"value": 2020.1926229508197
+},
+"div": 0.001534003717347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000043",
+"node_attrs": {
+"num_date": {
+"value": 2020.2855317657793
+},
+"div": 0.001567561717347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OM898416.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.4123287671232
+},
+"div": 0.002488049217347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000044",
+"node_attrs": {
+"num_date": {
+"value": 2020.533900329628
+},
+"div": 0.001735741817347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "MW903160.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.2068493150684
+},
+"div": 0.002310777817347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "MW870436.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.1986301369864
+},
+"div": 0.002174869317347625,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000128",
+"node_attrs": {
+"num_date": {
+"value": 2020.9349737845866
+},
+"div": 0.0017405034826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000129",
+"node_attrs": {
+"num_date": {
+"value": 2021.8586999809127
+},
+"div": 0.0022762553826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OV533320.1",
+"node_attrs": {
+"num_date": {
+"value": 2021.9328767123288
+},
+"div": 0.0023097355826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000130",
+"node_attrs": {
+"num_date": {
+"value": 2021.861335174684
+},
+"div": 0.002277255382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000131",
+"node_attrs": {
+"num_date": {
+"value": 2021.8650419381988
+},
+"div": 0.002278255382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000132",
+"node_attrs": {
+"num_date": {
+"value": 2021.99490544281
+},
+"div": 0.0023789293826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OW411636.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.004109589041
+},
+"div": 0.002414137682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OM390670.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.0342465753424
+},
+"div": 0.002379929382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000133",
+"node_attrs": {
+"num_date": {
+"value": 2021.9328083735056
+},
+"div": 0.0023452935826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OW767966.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.017808219178
+},
+"div": 0.0024123317826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000134",
+"node_attrs": {
+"num_date": {
+"value": 2022.0025160818852
+},
+"div": 0.0023959291826523748,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OV979665.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.0917808219178
+},
+"div": 0.002548774882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OW515929.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.0068493150684
+},
+"div": 0.002396929182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000135",
+"node_attrs": {
+"num_date": {
+"value": 2021.9109351698057
+},
+"div": 0.0023442935826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000136",
+"node_attrs": {
+"num_date": {
+"value": 2021.9328476582275
+},
+"div": 0.0023777737826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OM848629.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.1191780821919
+},
+"div": 0.0025459538826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "ON070985.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.141095890411
+},
+"div": 0.0025798244826523743,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000137",
+"node_attrs": {
+"num_date": {
+"value": 2021.9291676792263
+},
+"div": 0.0023452935826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX766664.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.0534246575342
+},
+"div": 0.0023787737826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000138",
+"node_attrs": {
+"num_date": {
+"value": 2021.9318628604626
+},
+"div": 0.002346293582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OM972924.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.1602739726027
+},
+"div": 0.0024823560826523748,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "ON405911.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.2506849315068
+},
+"div": 0.0025483442826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000139",
+"node_attrs": {
+"num_date": {
+"value": 2021.5120621186288
+},
+"div": 0.0021600037826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000140",
+"node_attrs": {
+"num_date": {
+"value": 2025.6555489696354
+},
+"div": 0.005072863782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000141",
+"node_attrs": {
+"num_date": {
+"value": 2025.6598822028186
+},
+"div": 0.005073863782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ405591.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.9986301369863
+},
+"div": 0.0052841536826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB031751.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.535616438356
+},
+"div": 0.005601221782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000142",
+"node_attrs": {
+"num_date": {
+"value": 2026.0180928986788
+},
+"div": 0.005388418782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ645850.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.1
+},
+"div": 0.005536316482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ672463.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.2479452054795
+},
+"div": 0.005389418782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000143",
+"node_attrs": {
+"num_date": {
+"value": 2021.907304113389
+},
+"div": 0.0025543451826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000144",
+"node_attrs": {
+"num_date": {
+"value": 2022.2404945371138
+},
+"div": 0.0027270118826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000145",
+"node_attrs": {
+"num_date": {
+"value": 2022.3693450608966
+},
+"div": 0.0027940500826523743,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OP552238.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.694520547945
+},
+"div": 0.0027950500826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000146",
+"node_attrs": {
+"num_date": {
+"value": 2022.3704628144653
+},
+"div": 0.0027950500826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000147",
+"node_attrs": {
+"num_date": {
+"value": 2022.3704628144653
+},
+"div": 0.0027960500826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY326277.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.4534246575342
+},
+"div": 0.0028977723826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OX780041.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.7657534246575
+},
+"div": 0.0029642301826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000148",
+"node_attrs": {
+"num_date": {
+"value": 2022.3704628144653
+},
+"div": 0.0027960500826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY849841.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.7410958904109
+},
+"div": 0.0030707752826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000149",
+"node_attrs": {
+"num_date": {
+"value": 2022.3704628144653
+},
+"div": 0.0027970500826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OP399920.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.6534246575343
+},
+"div": 0.0031001145826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OX885227.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.5438356164384
+},
+"div": 0.0031402404826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000150",
+"node_attrs": {
+"num_date": {
+"value": 2022.2405571755714
+},
+"div": 0.0027280118826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000151",
+"node_attrs": {
+"num_date": {
+"value": 2022.2444786941776
+},
+"div": 0.0027290118826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "ON941433.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.472602739726
+},
+"div": 0.0027960500826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000152",
+"node_attrs": {
+"num_date": {
+"value": 2022.368188886987
+},
+"div": 0.0028009838826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000153",
+"node_attrs": {
+"num_date": {
+"value": 2022.3890733248093
+},
+"div": 0.0028344640826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OP950613.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.8945205479451
+},
+"div": 0.0032070507826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000154",
+"node_attrs": {
+"num_date": {
+"value": 2022.4501017956616
+},
+"div": 0.0029351380826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY797125.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.009589041096
+},
+"div": 0.0032748064826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000155",
+"node_attrs": {
+"num_date": {
+"value": 2022.4506413786498
+},
+"div": 0.0029361380826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OP137704.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.535616438356
+},
+"div": 0.0030368120826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OP489673.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.6808219178083
+},
+"div": 0.0031721379826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000156",
+"node_attrs": {
+"num_date": {
+"value": 2022.4166203723657
+},
+"div": 0.002836292282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000157",
+"node_attrs": {
+"num_date": {
+"value": 2022.4767902541123
+},
+"div": 0.002908248282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY273357.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.6424657534246
+},
+"div": 0.0030523467826523753,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY125576.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.831506849315
+},
+"div": 0.003251606882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000158",
+"node_attrs": {
+"num_date": {
+"value": 2022.4209536055491
+},
+"div": 0.002837292282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ637900.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.5520547945205
+},
+"div": 0.002943771382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000159",
+"node_attrs": {
+"num_date": {
+"value": 2022.4252868387323
+},
+"div": 0.002838292282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OP224325.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.5739726027398
+},
+"div": 0.002972680182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY087386.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.817808219178
+},
+"div": 0.003007823182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000160",
+"node_attrs": {
+"num_date": {
+"value": 2022.3002254982669
+},
+"div": 0.0027950500826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX238485.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.521917808219
+},
+"div": 0.0030650779826523742,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000161",
+"node_attrs": {
+"num_date": {
+"value": 2022.368850112586
+},
+"div": 0.0028285302826523743,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OP348557.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.5712328767124
+},
+"div": 0.0030682132826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000162",
+"node_attrs": {
+"num_date": {
+"value": 2022.7538785545678
+},
+"div": 0.003030580982652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000163",
+"node_attrs": {
+"num_date": {
+"value": 2022.765311347373
+},
+"div": 0.0030315809826523743,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000164",
+"node_attrs": {
+"num_date": {
+"value": 2022.7882967432492
+},
+"div": 0.003065061182652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ200210.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.9712328767123
+},
+"div": 0.0032349750826523743,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OQ077503.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.8890410958904
+},
+"div": 0.0032347450826523743,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000165",
+"node_attrs": {
+"num_date": {
+"value": 2022.7692193624778
+},
+"div": 0.0030325809826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX417946.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.0369863013698
+},
+"div": 0.0033367158826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OQ400551.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.0616438356165
+},
+"div": 0.0032685808826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000166",
+"node_attrs": {
+"num_date": {
+"value": 2022.773406237321
+},
+"div": 0.003064061182652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY806213.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.9876712328767
+},
+"div": 0.003198449082652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000167",
+"node_attrs": {
+"num_date": {
+"value": 2022.789868579079
+},
+"div": 0.003097541382652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000168",
+"node_attrs": {
+"num_date": {
+"value": 2022.789868579079
+},
+"div": 0.003098541382652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OP968253.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.8808219178081
+},
+"div": 0.003302269882652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY176609.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.1246575342466
+},
+"div": 0.003339109982652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000169",
+"node_attrs": {
+"num_date": {
+"value": 2022.7942018122621
+},
+"div": 0.003098541382652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ426083.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.072602739726
+},
+"div": 0.003232929282652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000170",
+"node_attrs": {
+"num_date": {
+"value": 2022.7942018122621
+},
+"div": 0.003099541382652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ077951.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.9493150684932
+},
+"div": 0.003236687482652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OQ237319.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.990410958904
+},
+"div": 0.003335541282652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000171",
+"node_attrs": {
+"num_date": {
+"value": 2022.017589333647
+},
+"div": 0.0026818735826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ395533.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.6534246575343
+},
+"div": 0.0031573782826523748,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000172",
+"node_attrs": {
+"num_date": {
+"value": 2022.0493183145513
+},
+"div": 0.0027377651826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000173",
+"node_attrs": {
+"num_date": {
+"value": 2022.065645049763
+},
+"div": 0.002777591082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000174",
+"node_attrs": {
+"num_date": {
+"value": 2022.3007880004195
+},
+"div": 0.0029796417826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OP222233.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.3712328767124
+},
+"div": 0.0030810021826523748,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000175",
+"node_attrs": {
+"num_date": {
+"value": 2022.3677865625248
+},
+"div": 0.002980641782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "ON849412.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.4342465753425
+},
+"div": 0.0030141219826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000176",
+"node_attrs": {
+"num_date": {
+"value": 2022.3681162582109
+},
+"div": 0.002981641782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OP054426.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.5027397260274
+},
+"div": 0.0030486799826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000177",
+"node_attrs": {
+"num_date": {
+"value": 2022.3682450508732
+},
+"div": 0.002982641782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "ON825450.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.4315068493152
+},
+"div": 0.003083117982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "ON732432.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.390410958904
+},
+"div": 0.003049679982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000178",
+"node_attrs": {
+"num_date": {
+"value": 2022.0737695289208
+},
+"div": 0.002799354882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY554672.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.2095890410958
+},
+"div": 0.0029021248826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000179",
+"node_attrs": {
+"num_date": {
+"value": 2022.0737695289208
+},
+"div": 0.002800354882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY205411.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.3931506849315
+},
+"div": 0.003002405582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000180",
+"node_attrs": {
+"num_date": {
+"value": 2022.0737695289208
+},
+"div": 0.002801354882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OW486580.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.2369863013698
+},
+"div": 0.003037354782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000181",
+"node_attrs": {
+"num_date": {
+"value": 2022.0737695289208
+},
+"div": 0.002802354882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000182",
+"node_attrs": {
+"num_date": {
+"value": 2022.2364064624887
+},
+"div": 0.002835835082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "ON846927.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.4342465753425
+},
+"div": 0.002970222982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000183",
+"node_attrs": {
+"num_date": {
+"value": 2022.240739695672
+},
+"div": 0.002836835082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OW830010.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.286301369863
+},
+"div": 0.002903873282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OW815345.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.3027397260273
+},
+"div": 0.0028378350826523753,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000184",
+"node_attrs": {
+"num_date": {
+"value": 2022.0737695289208
+},
+"div": 0.0028033548826523753,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000185",
+"node_attrs": {
+"num_date": {
+"value": 2022.078102762104
+},
+"div": 0.0028043548826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "ON235963.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.2424657534248
+},
+"div": 0.0029559664826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OX190952.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.2506849315068
+},
+"div": 0.0029050288826523753,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000186",
+"node_attrs": {
+"num_date": {
+"value": 2022.0737695289208
+},
+"div": 0.0028043548826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OW548194.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.2753424657535
+},
+"div": 0.0029725349826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000187",
+"node_attrs": {
+"num_date": {
+"value": 2022.0737695289208
+},
+"div": 0.0028053548826523756,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OW819453.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.3109589041096
+},
+"div": 0.0030413547826523757,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000188",
+"node_attrs": {
+"num_date": {
+"value": 2022.0903583934178
+},
+"div": 0.0028787907826523756,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "ON333475.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.1493150684933
+},
+"div": 0.0031158309826523757,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "ON925167.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.3794520547945
+},
+"div": 0.0031749154826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000189",
+"node_attrs": {
+"num_date": {
+"value": 2022.1359468205846
+},
+"div": 0.0028810327826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000190",
+"node_attrs": {
+"num_date": {
+"value": 2022.2490641365705
+},
+"div": 0.0030436956826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000191",
+"node_attrs": {
+"num_date": {
+"value": 2022.535407916238
+},
+"div": 0.0033820167826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000192",
+"node_attrs": {
+"num_date": {
+"value": 2022.7654867521678
+},
+"div": 0.0035428539826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX941501.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.9493150684932
+},
+"div": 0.0037110340826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OQ602018.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.1383561643836
+},
+"div": 0.0038128818826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000193",
+"node_attrs": {
+"num_date": {
+"value": 2022.6768106016118
+},
+"div": 0.0035239899826523748,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "LC777463.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.4698630136986
+},
+"div": 0.0038483923826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000194",
+"node_attrs": {
+"num_date": {
+"value": 2022.6768106016118
+},
+"div": 0.003524989982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY813951.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.9328767123288
+},
+"div": 0.0037665060826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY148961.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.0863013698631
+},
+"div": 0.004112686082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000195",
+"node_attrs": {
+"num_date": {
+"value": 2022.6928325448469
+},
+"div": 0.0035149585826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000196",
+"node_attrs": {
+"num_date": {
+"value": 2022.9862422830738
+},
+"div": 0.0037505149826523748,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP029820.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.6671232876713
+},
+"div": 0.004294155682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000197",
+"node_attrs": {
+"num_date": {
+"value": 2023.2545128903864
+},
+"div": 0.003986514882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR594499.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.6890410958904
+},
+"div": 0.004258243882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000198",
+"node_attrs": {
+"num_date": {
+"value": 2023.2588461235696
+},
+"div": 0.003988529882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR575355.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.6479452054793
+},
+"div": 0.004124409582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000199",
+"node_attrs": {
+"num_date": {
+"value": 2023.2959500029153
+},
+"div": 0.004028922682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ021769.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.5602739726028
+},
+"div": 0.004281920382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY737357.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.6972602739727
+},
+"div": 0.0043968172826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000200",
+"node_attrs": {
+"num_date": {
+"value": 2022.7655549742806
+},
+"div": 0.0035853034826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OX379148.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.8561643835617
+},
+"div": 0.0037209520826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000201",
+"node_attrs": {
+"num_date": {
+"value": 2022.7929601750757
+},
+"div": 0.0036206094826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY821515.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.9109589041095
+},
+"div": 0.0038237525826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000202",
+"node_attrs": {
+"num_date": {
+"value": 2022.8753716658396
+},
+"div": 0.0036552218826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000203",
+"node_attrs": {
+"num_date": {
+"value": 2022.8797048990227
+},
+"div": 0.0036562218826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ421284.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.0616438356165
+},
+"div": 0.0037998717826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000204",
+"node_attrs": {
+"num_date": {
+"value": 2022.9691912334824
+},
+"div": 0.0036897020826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000205",
+"node_attrs": {
+"num_date": {
+"value": 2022.9802088074314
+},
+"div": 0.0037227846826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000206",
+"node_attrs": {
+"num_date": {
+"value": 2022.9802088074314
+},
+"div": 0.0037237846826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ526184.1",
+"node_attrs": {
+"num_date": {
+"value": 2022.9931506849316
+},
+"div": 0.0037908228826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OQ781710.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.231506849315
+},
+"div": 0.0038933134826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000207",
+"node_attrs": {
+"num_date": {
+"value": 2022.9855306943862
+},
+"div": 0.0037247996826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR550375.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.3191780821917
+},
+"div": 0.003934682282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000208",
+"node_attrs": {
+"num_date": {
+"value": 2022.9859082660416
+},
+"div": 0.003725799682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ893646.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.2890410958903
+},
+"div": 0.003860187582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000209",
+"node_attrs": {
+"num_date": {
+"value": 2022.986569836124
+},
+"div": 0.003726799682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ505538.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.1027397260275
+},
+"div": 0.003760279882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000210",
+"node_attrs": {
+"num_date": {
+"value": 2022.986569836124
+},
+"div": 0.003727799682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ610744.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.1575342465753
+},
+"div": 0.004099307382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000211",
+"node_attrs": {
+"num_date": {
+"value": 2022.987735390799
+},
+"div": 0.0037287996826523753,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX862559.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.2260273972602
+},
+"div": 0.003932857482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OQ970801.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.2972602739726
+},
+"div": 0.003939975382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000212",
+"node_attrs": {
+"num_date": {
+"value": 2022.9799645247872
+},
+"div": 0.0036907020826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY623270.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.3164383561643
+},
+"div": 0.003960729982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000213",
+"node_attrs": {
+"num_date": {
+"value": 2022.9833299614438
+},
+"div": 0.003691702082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000214",
+"node_attrs": {
+"num_date": {
+"value": 2023.29592076014
+},
+"div": 0.004001875282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR979376.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.6287671232876
+},
+"div": 0.004280393382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PP099010.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.9465753424658
+},
+"div": 0.0043910942826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000215",
+"node_attrs": {
+"num_date": {
+"value": 2022.9836232198554
+},
+"div": 0.003692702082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000216",
+"node_attrs": {
+"num_date": {
+"value": 2022.9873985999263
+},
+"div": 0.003693702082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR247534.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.4671232876713
+},
+"div": 0.003963729982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY728996.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.609589041096
+},
+"div": 0.004165720082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000217",
+"node_attrs": {
+"num_date": {
+"value": 2022.9836232198554
+},
+"div": 0.003693702082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ861880.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.2616438356165
+},
+"div": 0.003794376082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000218",
+"node_attrs": {
+"num_date": {
+"value": 2022.9858581800581
+},
+"div": 0.003696680382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ976160.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.313698630137
+},
+"div": 0.003966708282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000219",
+"node_attrs": {
+"num_date": {
+"value": 2022.9858581800581
+},
+"div": 0.003697680382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP041374.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.1876712328767
+},
+"div": 0.004041437982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000220",
+"node_attrs": {
+"num_date": {
+"value": 2022.9967987114067
+},
+"div": 0.003732569682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ969710.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.2972602739726
+},
+"div": 0.004015396582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000221",
+"node_attrs": {
+"num_date": {
+"value": 2022.999327480719
+},
+"div": 0.003735071782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OQ419776.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.0643835616438
+},
+"div": 0.003768551982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY797948.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.0671232876712
+},
+"div": 0.003940112282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000222",
+"node_attrs": {
+"num_date": {
+"value": 2022.9786439280554
+},
+"div": 0.0037242283826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000223",
+"node_attrs": {
+"num_date": {
+"value": 2023.1610288668414
+},
+"div": 0.003938982782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ001628.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.00956284153
+},
+"div": 0.004580021882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000224",
+"node_attrs": {
+"num_date": {
+"value": 2023.2290782310693
+},
+"div": 0.004012967582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000225",
+"node_attrs": {
+"num_date": {
+"value": 2023.2297024890956
+},
+"div": 0.004013967582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY720994.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.4561643835616
+},
+"div": 0.004283995482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OR609319.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.521917808219
+},
+"div": 0.004213931582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000226",
+"node_attrs": {
+"num_date": {
+"value": 2023.4920759821382
+},
+"div": 0.004189586082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR875775.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.7246575342465
+},
+"div": 0.0045631761826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000227",
+"node_attrs": {
+"num_date": {
+"value": 2023.4964092153214
+},
+"div": 0.004190586082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP846806.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.9712328767123
+},
+"div": 0.004460613982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000228",
+"node_attrs": {
+"num_date": {
+"value": 2023.5007424485045
+},
+"div": 0.004191586082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR598518.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.686301369863
+},
+"div": 0.004359766182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000229",
+"node_attrs": {
+"num_date": {
+"value": 2023.505075681688
+},
+"div": 0.004192586082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY726637.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.5849315068492
+},
+"div": 0.0042311811826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PP076424.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.9465753424658
+},
+"div": 0.004566299882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000230",
+"node_attrs": {
+"num_date": {
+"value": 2023.0536712037351
+},
+"div": 0.0037912665826523744,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000231",
+"node_attrs": {
+"num_date": {
+"value": 2023.0586222903883
+},
+"div": 0.0037932815826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY289366.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.305479452055
+},
+"div": 0.003967865482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000232",
+"node_attrs": {
+"num_date": {
+"value": 2023.0607820932942
+},
+"div": 0.0037942815826523747,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR122375.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.354794520548
+},
+"div": 0.004132602682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000233",
+"node_attrs": {
+"num_date": {
+"value": 2023.2307390447677
+},
+"div": 0.0038949555826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY285498.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.3657534246574
+},
+"div": 0.003995629582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OY742661.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.7246575342465
+},
+"div": 0.004199090482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000234",
+"node_attrs": {
+"num_date": {
+"value": 2023.4930989764648
+},
+"div": 0.0041268245826523746,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000235",
+"node_attrs": {
+"num_date": {
+"value": 2023.5677483758996
+},
+"div": 0.004193862782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY747933.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.7383561643835
+},
+"div": 0.004328250682652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PP348734.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.0478142076502
+},
+"div": 0.004605051482652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000236",
+"node_attrs": {
+"num_date": {
+"value": 2023.4932184283193
+},
+"div": 0.004127824582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000237",
+"node_attrs": {
+"num_date": {
+"value": 2023.4932184283193
+},
+"div": 0.004128824582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY985602.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.941095890411
+},
+"div": 0.004601391982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OR722289.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.7602739726028
+},
+"div": 0.0045002298826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000238",
+"node_attrs": {
+"num_date": {
+"value": 2023.6881615032764
+},
+"div": 0.004262212482652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP347120.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.9082191780822
+},
+"div": 0.004432666782652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000239",
+"node_attrs": {
+"num_date": {
+"value": 2023.6888806606346
+},
+"div": 0.004263212482652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR916775.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.8780821917808
+},
+"div": 0.004399501382652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000240",
+"node_attrs": {
+"num_date": {
+"value": 2023.6914010701005
+},
+"div": 0.0042642124826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OR951618.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.9082191780822
+},
+"div": 0.004433809982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PP000283.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.9328767123288
+},
+"div": 0.0044323925826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000241",
+"node_attrs": {
+"num_date": {
+"value": 2023.2419370121734
+},
+"div": 0.004021153582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000242",
+"node_attrs": {
+"num_date": {
+"value": 2025.2202823630885
+},
+"div": 0.005439466482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000243",
+"node_attrs": {
+"num_date": {
+"value": 2025.2357379347288
+},
+"div": 0.005440466482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ346345.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.7465753424658
+},
+"div": 0.005812270482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ443854.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.335616438356
+},
+"div": 0.005983123382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000244",
+"node_attrs": {
+"num_date": {
+"value": 2025.2202823630885
+},
+"div": 0.005440466482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000245",
+"node_attrs": {
+"num_date": {
+"value": 2025.6662166415858
+},
+"div": 0.005574854382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ520086.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.341095890411
+},
+"div": 0.005948237682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ418289.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.2890410958903
+},
+"div": 0.005879236982652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000246",
+"node_attrs": {
+"num_date": {
+"value": 2025.2296591166557
+},
+"div": 0.0054735434826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000247",
+"node_attrs": {
+"num_date": {
+"value": 2025.2349014148301
+},
+"div": 0.005475558482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX399057.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.3876712328768
+},
+"div": 0.005643738582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OZ348760.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.6972602739727
+},
+"div": 0.005780791682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000248",
+"node_attrs": {
+"num_date": {
+"value": 2025.2296591166557
+},
+"div": 0.005474543482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV635945.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.2698630136986
+},
+"div": 0.005644231782652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000249",
+"node_attrs": {
+"num_date": {
+"value": 2025.2349798620878
+},
+"div": 0.005475543482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX440219.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.6698630136987
+},
+"div": 0.0056916861826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ202882.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.5684931506848
+},
+"div": 0.005678748782652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000250",
+"node_attrs": {
+"num_date": {
+"value": 2023.627984601278
+},
+"div": 0.004450525982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY985239.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.886301369863
+},
+"div": 0.004619918882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000251",
+"node_attrs": {
+"num_date": {
+"value": 2023.688060451595
+},
+"div": 0.0045207015826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY996270.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.9712328767123
+},
+"div": 0.004791740082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000252",
+"node_attrs": {
+"num_date": {
+"value": 2023.8689884225794
+},
+"div": 0.004696496182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000253",
+"node_attrs": {
+"num_date": {
+"value": 2023.8754283438093
+},
+"div": 0.004699461282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP591821.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.233606557377
+},
+"div": 0.004835225182652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000254",
+"node_attrs": {
+"num_date": {
+"value": 2023.8986968840602
+},
+"div": 0.004732941482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ084549.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.2390710382513
+},
+"div": 0.0048712712826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000255",
+"node_attrs": {
+"num_date": {
+"value": 2023.9320567420962
+},
+"div": 0.004799979682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP219485.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.0341530054645
+},
+"div": 0.005003065182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PP490896.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.0122950819673
+},
+"div": 0.004900653682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000256",
+"node_attrs": {
+"num_date": {
+"value": 2023.8689884225794
+},
+"div": 0.004697496182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000257",
+"node_attrs": {
+"num_date": {
+"value": 2023.8857022459567
+},
+"div": 0.004730976382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OY996552.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.9712328767123
+},
+"div": 0.004865364282652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PP231675.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.0478142076502
+},
+"div": 0.004900367182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000258",
+"node_attrs": {
+"num_date": {
+"value": 2023.8689884225794
+},
+"div": 0.004698496182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP770099.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.045081967213
+},
+"div": 0.004880488882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000259",
+"node_attrs": {
+"num_date": {
+"value": 2023.877227172282
+},
+"div": 0.004728150782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000260",
+"node_attrs": {
+"num_date": {
+"value": 2023.898317561599
+},
+"div": 0.004761630982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ019670.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.1325136612022
+},
+"div": 0.004897687882652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000261",
+"node_attrs": {
+"num_date": {
+"value": 2023.9163225697387
+},
+"div": 0.0047951111826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000262",
+"node_attrs": {
+"num_date": {
+"value": 2023.9322602725015
+},
+"div": 0.0048401217826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP182462.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.0013661202186
+},
+"div": 0.004929588682652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OZ001521.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.0040983606557
+},
+"div": 0.005016772282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000263",
+"node_attrs": {
+"num_date": {
+"value": 2023.9306044084576
+},
+"div": 0.004796111182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP494527.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.1243169398906
+},
+"div": 0.004863149382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OZ084476.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.4494535519125
+},
+"div": 0.005072587482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000264",
+"node_attrs": {
+"num_date": {
+"value": 2023.877227172282
+},
+"div": 0.004729150782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ001930.1",
+"node_attrs": {
+"num_date": {
+"value": 2023.995890410959
+},
+"div": 0.004967149382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000265",
+"node_attrs": {
+"num_date": {
+"value": 2023.877227172282
+},
+"div": 0.004730150782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ026087.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.0122950819673
+},
+"div": 0.004934422082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000266",
+"node_attrs": {
+"num_date": {
+"value": 2023.9705927640034
+},
+"div": 0.004763630982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000267",
+"node_attrs": {
+"num_date": {
+"value": 2023.9999389889929
+},
+"div": 0.004797111182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ154606.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.4002732240438
+},
+"div": 0.005034768382652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PQ765069.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.4658469945355
+},
+"div": 0.004984220682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000268",
+"node_attrs": {
+"num_date": {
+"value": 2024.1994807080735
+},
+"div": 0.004797111182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000269",
+"node_attrs": {
+"num_date": {
+"value": 2024.20511167082
+},
+"div": 0.004798111182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000270",
+"node_attrs": {
+"num_date": {
+"value": 2024.2135421507253
+},
+"div": 0.004799111182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000271",
+"node_attrs": {
+"num_date": {
+"value": 2024.2135421507253
+},
+"div": 0.004800111182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ124701.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.4795081967213
+},
+"div": 0.005108702582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PP994020.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.4685792349726
+},
+"div": 0.005002161882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000272",
+"node_attrs": {
+"num_date": {
+"value": 2024.213734700506
+},
+"div": 0.004800111182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ037404.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.47131147541
+},
+"div": 0.004903418482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PP709217.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.266393442623
+},
+"div": 0.004900785182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000273",
+"node_attrs": {
+"num_date": {
+"value": 2024.2265588735634
+},
+"div": 0.004831591382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000274",
+"node_attrs": {
+"num_date": {
+"value": 2024.2304150891075
+},
+"div": 0.004832591382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ763761.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.4467213114754
+},
+"div": 0.005103987982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PQ277077.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.6161202185792
+},
+"div": 0.0050685912826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000275",
+"node_attrs": {
+"num_date": {
+"value": 2024.2388504908126
+},
+"div": 0.004865071582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ028784.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.4275956284152
+},
+"div": 0.005077308582652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000276",
+"node_attrs": {
+"num_date": {
+"value": 2024.2586356736929
+},
+"div": 0.0048985517826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ027092.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.2964480874316
+},
+"div": 0.004966685882652374,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OZ176191.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.5368852459017
+},
+"div": 0.0052040283826523745,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000277",
+"node_attrs": {
+"num_date": {
+"value": 2024.2038139412566
+},
+"div": 0.004799126182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000278",
+"node_attrs": {
+"num_date": {
+"value": 2024.263701827821
+},
+"div": 0.004922804182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000279",
+"node_attrs": {
+"num_date": {
+"value": 2024.263701827821
+},
+"div": 0.004923804182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ120689.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.4849726775956
+},
+"div": 0.0051817093826523756,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000280",
+"node_attrs": {
+"num_date": {
+"value": 2024.3069100509597
+},
+"div": 0.004965719882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000281",
+"node_attrs": {
+"num_date": {
+"value": 2024.3478012285902
+},
+"div": 0.005007793382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ100862.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.5368852459017
+},
+"div": 0.005246280582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PQ107951.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.545081967213
+},
+"div": 0.005134285382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000282",
+"node_attrs": {
+"num_date": {
+"value": 2024.3823415362313
+},
+"div": 0.005032758082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ309613.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.6051912568305
+},
+"div": 0.005066238282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000283",
+"node_attrs": {
+"num_date": {
+"value": 2024.3987569435615
+},
+"div": 0.005066238282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000284",
+"node_attrs": {
+"num_date": {
+"value": 2024.4001194110524
+},
+"div": 0.005067238282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP994422.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.4849726775956
+},
+"div": 0.005170069482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PV434498.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.5860655737704
+},
+"div": 0.005271379482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000285",
+"node_attrs": {
+"num_date": {
+"value": 2024.3987569435615
+},
+"div": 0.005067238282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ119131.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.4795081967213
+},
+"div": 0.005236458182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PQ328350.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.6215846994535
+},
+"div": 0.005380208782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000286",
+"node_attrs": {
+"num_date": {
+"value": 2024.3048438017734
+},
+"div": 0.0049898423826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000287",
+"node_attrs": {
+"num_date": {
+"value": 2024.3091770349567
+},
+"div": 0.004990842382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ507457.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.7472677595629
+},
+"div": 0.005262258082652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000288",
+"node_attrs": {
+"num_date": {
+"value": 2024.4093655772717
+},
+"div": 0.005097245182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ377449.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.5969945355191
+},
+"div": 0.005378472582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000289",
+"node_attrs": {
+"num_date": {
+"value": 2024.413698810455
+},
+"div": 0.005098245182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ090625.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.457650273224
+},
+"div": 0.005131725382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000290",
+"node_attrs": {
+"num_date": {
+"value": 2024.4180320436383
+},
+"div": 0.0050992451826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ473207.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.7254098360656
+},
+"div": 0.005305674682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000291",
+"node_attrs": {
+"num_date": {
+"value": 2024.609367763489
+},
+"div": 0.0052766660826523756,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000292",
+"node_attrs": {
+"num_date": {
+"value": 2024.609367763489
+},
+"div": 0.005277666082652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV410911.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.1712328767123
+},
+"div": 0.005615987182652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000293",
+"node_attrs": {
+"num_date": {
+"value": 2024.7480849357833
+},
+"div": 0.005437132382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ899095.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.9931693989072
+},
+"div": 0.005573074582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000294",
+"node_attrs": {
+"num_date": {
+"value": 2024.7480849357833
+},
+"div": 0.005438132382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ222191.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.9959016393443
+},
+"div": 0.005716907882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OZ206985.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.8428961748634
+},
+"div": 0.005573538682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000295",
+"node_attrs": {
+"num_date": {
+"value": 2024.684335234067
+},
+"div": 0.005312113182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000296",
+"node_attrs": {
+"num_date": {
+"value": 2024.7456965767244
+},
+"div": 0.005347559882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ208853.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.8292349726776
+},
+"div": 0.005448233882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000297",
+"node_attrs": {
+"num_date": {
+"value": 2024.7500298099076
+},
+"div": 0.005348559882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV390168.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.0287671232877
+},
+"div": 0.005585580282652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000298",
+"node_attrs": {
+"num_date": {
+"value": 2024.754363043091
+},
+"div": 0.005349559882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV548948.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.1054794520549
+},
+"div": 0.005636834082652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OZ256660.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.286301369863
+},
+"div": 0.005687880982652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000299",
+"node_attrs": {
+"num_date": {
+"value": 2024.7436220125192
+},
+"div": 0.005345593382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV031449.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.8319672131147
+},
+"div": 0.005446267382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000300",
+"node_attrs": {
+"num_date": {
+"value": 2024.7461196645477
+},
+"div": 0.005346593382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000301",
+"node_attrs": {
+"num_date": {
+"value": 2024.7605999232494
+},
+"div": 0.005370249882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV019121.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.8975409836066
+},
+"div": 0.005672503482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PV916071.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.458904109589
+},
+"div": 0.005552115082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000302",
+"node_attrs": {
+"num_date": {
+"value": 2024.7488120846433
+},
+"div": 0.005347593382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV591793.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.1164383561643
+},
+"div": 0.005618586382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000303",
+"node_attrs": {
+"num_date": {
+"value": 2024.7531453178265
+},
+"div": 0.0053496083826523756,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV807429.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.8346994535518
+},
+"div": 0.005485213782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ882546.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.2397260273972
+},
+"div": 0.005526643282652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000304",
+"node_attrs": {
+"num_date": {
+"value": 2024.3461975741925
+},
+"div": 0.005056880582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ158320.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.5204918032787
+},
+"div": 0.005197543982652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000305",
+"node_attrs": {
+"num_date": {
+"value": 2024.3461975741925
+},
+"div": 0.005057880582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PP936194.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.422131147541
+},
+"div": 0.005317729182652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000306",
+"node_attrs": {
+"num_date": {
+"value": 2024.535735367452
+},
+"div": 0.005124918782652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV022608.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.9631147540983
+},
+"div": 0.005533984982652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000307",
+"node_attrs": {
+"num_date": {
+"value": 2024.5359073005868
+},
+"div": 0.005125918782652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000308",
+"node_attrs": {
+"num_date": {
+"value": 2024.5360106772296
+},
+"div": 0.005126918782652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ184002.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.6625683060108
+},
+"div": 0.005261306682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000309",
+"node_attrs": {
+"num_date": {
+"value": 2024.604782999224
+},
+"div": 0.005160398982652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ862766.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.941256830601
+},
+"div": 0.005430426882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000310",
+"node_attrs": {
+"num_date": {
+"value": 2024.7469640161323
+},
+"div": 0.005193879182652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX276549.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.0205479452054
+},
+"div": 0.0053636348826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PV258020.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.1493150684933
+},
+"div": 0.005397303582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000311",
+"node_attrs": {
+"num_date": {
+"value": 2024.5359073005868
+},
+"div": 0.005126918782652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000312",
+"node_attrs": {
+"num_date": {
+"value": 2024.5367880003587
+},
+"div": 0.0051279187826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV365065.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.9877049180327
+},
+"div": 0.005297127482652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000313",
+"node_attrs": {
+"num_date": {
+"value": 2024.5369837430105
+},
+"div": 0.005128918782652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ317968.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.6598360655737
+},
+"div": 0.0053051642826523766,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PQ671814.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.8374316939892
+},
+"div": 0.005332450682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000314",
+"node_attrs": {
+"num_date": {
+"value": 2024.54024053377
+},
+"div": 0.0051289337826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PQ333851.1",
+"node_attrs": {
+"num_date": {
+"value": 2024.6926229508197
+},
+"div": 0.005297868282652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000315",
+"node_attrs": {
+"num_date": {
+"value": 2024.745677889701
+},
+"div": 0.005162413982652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ259430.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.3301369863013
+},
+"div": 0.0054321806826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000316",
+"node_attrs": {
+"num_date": {
+"value": 2024.8964175676108
+},
+"div": 0.005263162382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX497315.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.36301369863
+},
+"div": 0.005602777682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000317",
+"node_attrs": {
+"num_date": {
+"value": 2026.4721397027404
+},
+"div": 0.006521160582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB184564.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7520547945205
+},
+"div": 0.006691098882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000318",
+"node_attrs": {
+"num_date": {
+"value": 2026.5822127649583
+},
+"div": 0.006625321882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000319",
+"node_attrs": {
+"num_date": {
+"value": 2026.595346033946
+},
+"div": 0.0066588020826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB007169.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.6397260273973
+},
+"div": 0.006762027982652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB184562.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7493150684932
+},
+"div": 0.006725840282652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000320",
+"node_attrs": {
+"num_date": {
+"value": 2026.5883449225714
+},
+"div": 0.006626321882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB160522.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7520547945205
+},
+"div": 0.006730071582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB160524.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7575342465752
+},
+"div": 0.006695479782652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000321",
+"node_attrs": {
+"num_date": {
+"value": 2024.5440774178462
+},
+"div": 0.005001176882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000322",
+"node_attrs": {
+"num_date": {
+"value": 2024.613835334409
+},
+"div": 0.005067987682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ404761.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.9602739726026
+},
+"div": 0.006017048082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000323",
+"node_attrs": {
+"num_date": {
+"value": 2024.8259472737404
+},
+"div": 0.005270038382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX673569.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.9054794520548
+},
+"div": 0.005846292282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000324",
+"node_attrs": {
+"num_date": {
+"value": 2024.8975043598032
+},
+"div": 0.005337076582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000325",
+"node_attrs": {
+"num_date": {
+"value": 2025.1151091254217
+},
+"div": 0.0053705567826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV595043.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.286301369863
+},
+"div": 0.0054400539826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "OZ348512.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.7493150684932
+},
+"div": 0.005643483382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000326",
+"node_attrs": {
+"num_date": {
+"value": 2025.0186079927266
+},
+"div": 0.005556067482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000327",
+"node_attrs": {
+"num_date": {
+"value": 2025.135055321714
+},
+"div": 0.005623105682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ261787.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.36301369863
+},
+"div": 0.005794833282652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PV698597.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.3328767123287
+},
+"div": 0.0057237796826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000328",
+"node_attrs": {
+"num_date": {
+"value": 2025.0186079927266
+},
+"div": 0.005557067482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000329",
+"node_attrs": {
+"num_date": {
+"value": 2025.0472753315066
+},
+"div": 0.005590547682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV418190.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.1794520547944
+},
+"div": 0.005657585882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000330",
+"node_attrs": {
+"num_date": {
+"value": 2025.0472753315066
+},
+"div": 0.005591547682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV609096.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.2013698630137
+},
+"div": 0.005658585882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PV554237.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.2068493150684
+},
+"div": 0.0058968370826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000331",
+"node_attrs": {
+"num_date": {
+"value": 2025.0186079927266
+},
+"div": 0.005558067482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000332",
+"node_attrs": {
+"num_date": {
+"value": 2025.0249613512487
+},
+"div": 0.005591547682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV613589.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.2972602739726
+},
+"div": 0.005938740682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000333",
+"node_attrs": {
+"num_date": {
+"value": 2025.0249613512487
+},
+"div": 0.005592547682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV174169.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.0863013698631
+},
+"div": 0.005780067582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PV521898.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.141095890411
+},
+"div": 0.005694278282652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000334",
+"node_attrs": {
+"num_date": {
+"value": 2025.0191447522884
+},
+"div": 0.005559067482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000335",
+"node_attrs": {
+"num_date": {
+"value": 2025.0220832371278
+},
+"div": 0.0055600674826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV274987.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.1575342465753
+},
+"div": 0.005706774882652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PV998787.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.4479452054795
+},
+"div": 0.0058066990826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000336",
+"node_attrs": {
+"num_date": {
+"value": 2025.0203851811327
+},
+"div": 0.0055600674826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV878027.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.4753424657533
+},
+"div": 0.005787895682652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PX060390.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.5191780821917
+},
+"div": 0.0058814026826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000337",
+"node_attrs": {
+"num_date": {
+"value": 2024.7502656896343
+},
+"div": 0.005136288882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000338",
+"node_attrs": {
+"num_date": {
+"value": 2025.2336585098599
+},
+"div": 0.005523204382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV666694.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.313698630137
+},
+"div": 0.005626827182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ594591.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.4287671232876
+},
+"div": 0.005981331482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000339",
+"node_attrs": {
+"num_date": {
+"value": 2024.8577020135638
+},
+"div": 0.005236962882652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000340",
+"node_attrs": {
+"num_date": {
+"value": 2024.8790300022058
+},
+"div": 0.005270443082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000341",
+"node_attrs": {
+"num_date": {
+"value": 2025.0229234179967
+},
+"div": 0.005438623182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV247811.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.1356164383562
+},
+"div": 0.005642110282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PX398207.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.5301369863014
+},
+"div": 0.005539297182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000342",
+"node_attrs": {
+"num_date": {
+"value": 2024.8790300022058
+},
+"div": 0.005271443082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV687985.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.3657534246574
+},
+"div": 0.005508781182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000343",
+"node_attrs": {
+"num_date": {
+"value": 2024.895690537624
+},
+"div": 0.005305231482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PV260825.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.0232876712328
+},
+"div": 0.005609868582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PX703487.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.4835616438356
+},
+"div": 0.005576196382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000344",
+"node_attrs": {
+"num_date": {
+"value": 2025.3536631956538
+},
+"div": 0.0054390135826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000345",
+"node_attrs": {
+"num_date": {
+"value": 2025.7874831752133
+},
+"div": 0.005741902382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB149817.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.0616438356165
+},
+"div": 0.005808940582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000346",
+"node_attrs": {
+"num_date": {
+"value": 2025.7874831752133
+},
+"div": 0.005742902382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000347",
+"node_attrs": {
+"num_date": {
+"value": 2025.7874831752133
+},
+"div": 0.0057439023826523754,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX886131.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.9328767123288
+},
+"div": 0.006100134782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000348",
+"node_attrs": {
+"num_date": {
+"value": 2025.7925928035513
+},
+"div": 0.005744902382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ368091.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.2808219178082
+},
+"div": 0.005991010982652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB007119.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.650684931507
+},
+"div": 0.006216921182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000349",
+"node_attrs": {
+"num_date": {
+"value": 2025.7918164083965
+},
+"div": 0.0057439023826523754,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ809282.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.5520547945205
+},
+"div": 0.006083428682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000350",
+"node_attrs": {
+"num_date": {
+"value": 2025.8673283823598
+},
+"div": 0.005777382582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ126746.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.0013698630137
+},
+"div": 0.005945562682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB160523.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7575342465752
+},
+"div": 0.006016501082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000351",
+"node_attrs": {
+"num_date": {
+"value": 2025.4164359126883
+},
+"div": 0.005472493782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000352",
+"node_attrs": {
+"num_date": {
+"value": 2025.5746635261235
+},
+"div": 0.005606881682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX919872.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.9849315068493
+},
+"div": 0.005971128482652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000353",
+"node_attrs": {
+"num_date": {
+"value": 2025.5789967593066
+},
+"div": 0.005607881682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ375305.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.872602739726
+},
+"div": 0.006012833182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000354",
+"node_attrs": {
+"num_date": {
+"value": 2025.943232055629
+},
+"div": 0.005708555682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000355",
+"node_attrs": {
+"num_date": {
+"value": 2025.951557204968
+},
+"div": 0.0057095556826523754,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ559349.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.5958904109589
+},
+"div": 0.0060821423826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000356",
+"node_attrs": {
+"num_date": {
+"value": 2026.3999512863293
+},
+"div": 0.0058777357826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ960047.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.645205479452
+},
+"div": 0.006012123682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB160515.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7493150684932
+},
+"div": 0.006116806682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000357",
+"node_attrs": {
+"num_date": {
+"value": 2025.944598099674
+},
+"div": 0.0057095556826523754,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ783761.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.4753424657533
+},
+"div": 0.006106932782652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000358",
+"node_attrs": {
+"num_date": {
+"value": 2026.0233023163037
+},
+"div": 0.005810229682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB045807.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.6808219178083
+},
+"div": 0.005984064082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000359",
+"node_attrs": {
+"num_date": {
+"value": 2026.0233023163037
+},
+"div": 0.005811229682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB123911.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.0780821917808
+},
+"div": 0.005945617582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB184563.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7575342465752
+},
+"div": 0.0061507035826523756,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000360",
+"node_attrs": {
+"num_date": {
+"value": 2025.4207691458716
+},
+"div": 0.0054734937826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000361",
+"node_attrs": {
+"num_date": {
+"value": 2025.4708573455684
+},
+"div": 0.005506973982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX450346.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.5986301369862
+},
+"div": 0.005709024682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000362",
+"node_attrs": {
+"num_date": {
+"value": 2025.5304678868533
+},
+"div": 0.005540454182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000363",
+"node_attrs": {
+"num_date": {
+"value": 2025.5625373301061
+},
+"div": 0.005573934382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ014000.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.0616438356165
+},
+"div": 0.0059318597826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000364",
+"node_attrs": {
+"num_date": {
+"value": 2025.582133058286
+},
+"div": 0.005606233182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ362787.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.8013698630136
+},
+"div": 0.0060464756826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ804935.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.5328767123287
+},
+"div": 0.006147623782652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000365",
+"node_attrs": {
+"num_date": {
+"value": 2025.5348011200365
+},
+"div": 0.005541454182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000366",
+"node_attrs": {
+"num_date": {
+"value": 2025.5351289638322
+},
+"div": 0.0055424541826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX987533.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.6698630136987
+},
+"div": 0.005609492382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000367",
+"node_attrs": {
+"num_date": {
+"value": 2025.5351289638322
+},
+"div": 0.005543454182652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX171291.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.5931506849315
+},
+"div": 0.005680717882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PX497588.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.7602739726028
+},
+"div": 0.005712819582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000368",
+"node_attrs": {
+"num_date": {
+"value": 2025.6514337243998
+},
+"div": 0.005642128182652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ362754.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.795890410959
+},
+"div": 0.005878128082652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000369",
+"node_attrs": {
+"num_date": {
+"value": 2025.759897724425
+},
+"div": 0.0056756083826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ188645.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.0972602739726
+},
+"div": 0.005912732182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ411787.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.3109589041096
+},
+"div": 0.005884947182652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000370",
+"node_attrs": {
+"num_date": {
+"value": 2025.4251023790548
+},
+"div": 0.005474493782652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000371",
+"node_attrs": {
+"num_date": {
+"value": 2025.6595658085798
+},
+"div": 0.005676574482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000372",
+"node_attrs": {
+"num_date": {
+"value": 2025.6595658085798
+},
+"div": 0.005677574482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB124105.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.9739726027397
+},
+"div": 0.006057521382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000373",
+"node_attrs": {
+"num_date": {
+"value": 2026.5467453153278
+},
+"div": 0.006190437182652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB123261.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7
+},
+"div": 0.006361348682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000374",
+"node_attrs": {
+"num_date": {
+"value": 2026.551078548511
+},
+"div": 0.006191437182652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB123258.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7109589041097
+},
+"div": 0.006362328982652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000375",
+"node_attrs": {
+"num_date": {
+"value": 2026.709655271535
+},
+"div": 0.006329268882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB160525.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7575342465752
+},
+"div": 0.006398160082652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB160521.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7520547945205
+},
+"div": 0.0063302688826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000376",
+"node_attrs": {
+"num_date": {
+"value": 2025.848603222524
+},
+"div": 0.005777248482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ483516.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.2534246575342
+},
+"div": 0.005911636382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000377",
+"node_attrs": {
+"num_date": {
+"value": 2025.848603222524
+},
+"div": 0.005778248482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000378",
+"node_attrs": {
+"num_date": {
+"value": 2025.8635467341612
+},
+"div": 0.005811728682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ364289.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.8753424657534
+},
+"div": 0.005845208882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ693959.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.1109589041096
+},
+"div": 0.005845208882652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000379",
+"node_attrs": {
+"num_date": {
+"value": 2025.8680473698696
+},
+"div": 0.005779248482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000380",
+"node_attrs": {
+"num_date": {
+"value": 2025.8723806030528
+},
+"div": 0.005780248482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ861922.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.16301369863
+},
+"div": 0.006016248382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ247680.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.2205479452055
+},
+"div": 0.006019316182652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000381",
+"node_attrs": {
+"num_date": {
+"value": 2025.9354844920604
+},
+"div": 0.005780248482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ445064.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.335616438356
+},
+"div": 0.005965653082652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000382",
+"node_attrs": {
+"num_date": {
+"value": 2025.9429403172828
+},
+"div": 0.0057822634826523766,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX908411.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.017808219178
+},
+"div": 0.005849316482652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB160530.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.4178082191781
+},
+"div": 0.006001838082652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000383",
+"node_attrs": {
+"num_date": {
+"value": 2025.4666146082136
+},
+"div": 0.005509657182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ286476.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.1109589041096
+},
+"div": 0.005983455182652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000384",
+"node_attrs": {
+"num_date": {
+"value": 2025.4703303898896
+},
+"div": 0.005511707582652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000385",
+"node_attrs": {
+"num_date": {
+"value": 2025.529088440585
+},
+"div": 0.005545187782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ367233.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.782191780822
+},
+"div": 0.005781187682652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000386",
+"node_attrs": {
+"num_date": {
+"value": 2025.533421673768
+},
+"div": 0.005546187782652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ345712.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.7027397260274
+},
+"div": 0.005579667982652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000387",
+"node_attrs": {
+"num_date": {
+"value": 2025.572036291117
+},
+"div": 0.005613225982652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ312329.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.658904109589
+},
+"div": 0.005815276682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000388",
+"node_attrs": {
+"num_date": {
+"value": 2025.867198486191
+},
+"div": 0.005816357682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB059640.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.1493150684933
+},
+"div": 0.006086385582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ014073.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.0835616438355
+},
+"div": 0.0059527881826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000389",
+"node_attrs": {
+"num_date": {
+"value": 2025.470345437281
+},
+"div": 0.0055127075826523755,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000390",
+"node_attrs": {
+"num_date": {
+"value": 2025.5369000984883
+},
+"div": 0.005714758282652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ113751.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.127397260274
+},
+"div": 0.005822631582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000391",
+"node_attrs": {
+"num_date": {
+"value": 2025.5456524851882
+},
+"div": 0.005748238482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX450975.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.5739726027398
+},
+"div": 0.005853972382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PX278723.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.6287671232876
+},
+"div": 0.005849940482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+},
+{
+"name": "NODE_0000392",
+"node_attrs": {
+"num_date": {
+"value": 2025.471513926501
+},
+"div": 0.005513707582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000393",
+"node_attrs": {
+"num_date": {
+"value": 2025.4744581288528
+},
+"div": 0.005514707582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ367301.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.7520547945205
+},
+"div": 0.005716758282652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "PZ443873.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.327397260274
+},
+"div": 0.005953347382652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000394",
+"node_attrs": {
+"num_date": {
+"value": 2025.471799132098
+},
+"div": 0.005514707582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PX493772.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.658904109589
+},
+"div": 0.005784735482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000395",
+"node_attrs": {
+"num_date": {
+"value": 2025.572092314634
+},
+"div": 0.005585363482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000396",
+"node_attrs": {
+"num_date": {
+"value": 2025.5929663098816
+},
+"div": 0.005618843682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "OZ331005.1",
+"node_attrs": {
+"num_date": {
+"value": 2025.6753424657534
+},
+"div": 0.005787023782652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB184561.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7547945205479
+},
+"div": 0.005959417282652375,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000397",
+"node_attrs": {
+"num_date": {
+"value": 2025.576425547817
+},
+"div": 0.005586363482652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ253774.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.0534246575342
+},
+"div": 0.006014134182652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000398",
+"node_attrs": {
+"num_date": {
+"value": 2025.6570176601
+},
+"div": 0.005621339382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "PZ886581.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.5
+},
+"div": 0.006121773282652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000399",
+"node_attrs": {
+"num_date": {
+"value": 2026.5467508793251
+},
+"div": 0.006196302682652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB184567.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7547945205479
+},
+"div": 0.006433607582652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000400",
+"node_attrs": {
+"num_date": {
+"value": 2026.5510841125083
+},
+"div": 0.0061973026826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB160486.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.727397260274
+},
+"div": 0.006400377982652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "NODE_0000401",
+"node_attrs": {
+"num_date": {
+"value": 2026.5813439729152
+},
+"div": 0.006199317682652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "NODE_0000402",
+"node_attrs": {
+"num_date": {
+"value": 2026.748867780209
+},
+"div": 0.006301067382652376,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB184566.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7575342465752
+},
+"div": 0.0063020673826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB184565.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7547945205479
+},
+"div": 0.0063020673826523765,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+},
+{
+"name": "NODE_0000403",
+"node_attrs": {
+"num_date": {
+"value": 2026.5870118505454
+},
+"div": 0.006200317682652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {},
+"children": [
+{
+"name": "QB160520.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7493150684932
+},
+"div": 0.006377109582652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+},
+{
+"name": "QB160519.1",
+"node_attrs": {
+"num_date": {
+"value": 2026.7493150684932
+},
+"div": 0.006307359182652377,
+"bad_branch": {
+"value": "No"
+}
+},
+"branch_attrs": {}
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+]
+}
+}

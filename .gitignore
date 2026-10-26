@@ -1,0 +1,32 @@
+# Private, git-ignored per this portfolio's convention -- learning files, not published
+WORKFLOW.md
+PROJECT_NARRATIVE.md
+INTERVIEW_QA.md
+INTERPRETATION.md
+phylodynamics_pipeline.png
+Phylodynamics17_Learning_Compendium.pdf
+
+# Blank/hint teaching scaffold -- a separate CLEAN pushable notebook (with real outputs) gets built after
+# real execution; this blanked one and the private answer-key reference copy are never pushed
+phylodynamics_surveillance_sars_cov2.ipynb
+phylodynamics_surveillance_sars_cov2_FULL_reference.ipynb
+phylodynamics_surveillance_sars_cov2_FULL_reference_ran_tried.ipynb
+
+# Downloaded/intermediate data + binaries -- large, reproducible by rerunning the notebook
+*.zip
+*.fasta
+*.fasta.gz
+sars_cov_2*/
+nextclade_dataset/
+nextclade
+iqtree2*
+datasets
+dataformat
+*.treefile
+*.iqtree
+*.ckp.gz
+
+# Standard
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
